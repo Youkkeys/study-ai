@@ -40,6 +40,8 @@ markdown_extensions:
 
 nav:
   - はじめに: index.md
+  - Model Context Protocol (MCP) とは: mcp_overview.md
+  - AI開発のトレンドとPHPツール: ai_dev_trends_php_tools.md
   - AIツール:
     - Kiro: kiro.md
     - Codex: codex.md
