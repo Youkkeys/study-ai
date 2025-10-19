@@ -1,0 +1,52 @@
+site_name: AI駆動開発：PHP開発者のための次世代ツールガイド
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: ライトモードに切り替え
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: ダークモードに切り替え
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist: 
+      custom_checkbox: true
+  - def_list
+  - pymdownx.extra
+  - attr_list
+  - md_in_html
+
+nav:
+  - はじめに: index.md
+  - AIツール:
+    - Kiro: kiro.md
+    - Codex: codex.md
+    - Jules: jules.md
+    - OpenAI GPT: opengpt.md
+  - 実践的なTips & How-to: tips-and-how-tos.md
+
+plugins:
+  - search
+
